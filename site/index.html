@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Der echte Einbürgerungstest</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="flag" aria-hidden="true"><span></span><span></span><span></span></div>
+
+  <main class="container">
+    <header>
+      <h1 id="title">Der echte Einbürgerungstest</h1>
+      <p id="subtitle" class="subtitle"></p>
+      <p id="note" class="note"></p>
+    </header>
+
+    <div class="progress" aria-hidden="true"><div id="progress-bar"></div></div>
+
+    <section id="quiz" class="card" hidden>
+      <p id="progress" class="counter"></p>
+      <h2 id="question"></h2>
+      <div id="options" class="options"></div>
+
+      <div id="feedback" class="feedback" hidden aria-live="polite">
+        <p id="verdict" class="verdict"></p>
+        <p id="explanation"></p>
+        <button id="next" type="button" class="primary"></button>
+      </div>
+    </section>
+
+    <section id="result" class="card result" hidden>
+      <h2>Ihr Ergebnis</h2>
+      <p class="score"><span id="score"></span> richtig</p>
+      <p id="rating"></p>
+      <button id="restart" type="button" class="primary">Noch einmal versuchen</button>
+    </section>
+
+    <p id="error" class="error" hidden>Die Fragen konnten nicht geladen werden. Bitte später erneut versuchen.</p>
+  </main>
+</body>
+</html>
