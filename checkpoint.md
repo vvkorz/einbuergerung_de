@@ -36,7 +36,7 @@ Deploy fails: an SCP in the user's own org explicitly denies `iam:CreateOpenIDCo
    ```powershell
    aws cloudformation delete-stack --stack-name einbuergerungstest --profile einbuergerung
    aws cloudformation wait stack-delete-complete --stack-name einbuergerungstest --profile einbuergerung
-   aws cloudformation deploy --stack-name einbuergerungstest --template-file infra/template.yaml --capabilities CAPABILITY_IAM --parameter-overrides GitHubRepo=vvkorz/einbuergerung_de --profile einbuergerung
+   aws cloudformation deploy --stack-name einbuergerungstest --template-file infra/template.yaml --capabilities CAPABILITY_IAM --parameter-overrides GitHubRepo=vvkorz@27291885/einbuergerung_de@1448132503 --profile einbuergerung
    ```
 3. Read outputs (`aws cloudformation describe-stacks --stack-name einbuergerungstest --query "Stacks[0].Outputs" --output table --profile einbuergerung`) and set GitHub repo variables (`AWS_REGION=eu-north-1`).
 4. Push to main; site at `WebsiteUrl`.

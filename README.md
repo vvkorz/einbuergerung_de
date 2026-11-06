@@ -57,6 +57,8 @@ aws cloudformation deploy \
   --parameter-overrides GitHubRepo=<owner>/<repo>
 ```
 
+`GitHubRepo` must match the repository part of the OIDC `sub` claim exactly. Newer GitHub repositories include IDs, e.g. `owner@27291885/repo@1448132503`.
+
 If your AWS account already has a GitHub OIDC provider (`token.actions.githubusercontent.com`), also pass `ExistingOidcProviderArn=<arn>`.
 
 Read the outputs:

@@ -4,8 +4,8 @@ Description: Static website for Der echte Einbuergerungstest (private S3 + Cloud
 Parameters:
   GitHubRepo:
     Type: String
-    Description: GitHub repository allowed to deploy, in the form owner/repo
-    AllowedPattern: "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"
+    Description: GitHub repository allowed to deploy as it appears in the OIDC sub claim, e.g. owner/repo or owner@123/repo@456
+    AllowedPattern: "^[A-Za-z0-9_.-]+(@[0-9]+)?/[A-Za-z0-9_.-]+(@[0-9]+)?$"
   ExistingOidcProviderArn:
     Type: String
     Default: ""
