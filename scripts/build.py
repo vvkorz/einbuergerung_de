@@ -12,6 +12,7 @@ SITE_DIR = ROOT / "site"
 DIST_DIR = ROOT / "dist"
 
 LETTERS = ["A", "B", "C", "D"]
+QUIZ_SIZE = 33
 HEADING = re.compile(r"^###\s+(\d+)\.\s+(.+?)\s*$")
 OPTION = re.compile(r"^-\s+([A-D])\)\s+(.+?)\s*$")
 ANSWER = re.compile(r"^\*\*Richtige Antwort:\*\*\s*([A-D])\s*$")
@@ -59,6 +60,8 @@ def validate(questions: list[dict]) -> list[str]:
     errors = []
     if not questions:
         errors.append("No questions found.")
+    elif len(questions) < QUIZ_SIZE:
+        errors.append(f"Only {len(questions)} questions, but a quiz needs {QUIZ_SIZE}.")
     seen_ids = set()
     for q in questions:
         where = f"Line {q['line']} (question {q['id']})"
@@ -86,14 +89,18 @@ def main() -> int:
     for q in questions:
         del q["line"]
 
+    meta["subtitle"] = meta["subtitle"].replace("{quiz_size}", str(QUIZ_SIZE)).replace(
+        "{pool_size}", str(len(questions))
+    )
+
     if DIST_DIR.exists():
         shutil.rmtree(DIST_DIR)
     shutil.copytree(SITE_DIR, DIST_DIR)
     (DIST_DIR / "questions.json").write_text(
-        json.dumps({**meta, "questions": questions}, ensure_ascii=False, indent=2),
+        json.dumps({**meta, "quizSize": QUIZ_SIZE, "questions": questions}, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    print(f"Built {len(questions)} questions into {DIST_DIR.relative_to(ROOT)}/")
+    print(f"Built {len(questions)} questions ({QUIZ_SIZE} per quiz) into {DIST_DIR.relative_to(ROOT)}/")
     return 0
 
 

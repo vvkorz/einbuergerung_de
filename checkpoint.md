@@ -1,13 +1,13 @@
 # Checkpoint: Der echte Einbürgerungstest
 
 ## Goal
-Static quiz website (12 humorous German culture questions), hosted cheaply on AWS. Questions maintained in `fragen.md`; push to `main` deploys via GitHub Actions.
+Static quiz website (humorous German culture questions), hosted cheaply on AWS. Questions maintained in `fragen.md`; push to `main` deploys via GitHub Actions.
 
 ## Decisions
 - Hosting: private S3 bucket + CloudFront (OAC, HTTPS, `PriceClass_100`, managed SecurityHeadersPolicy). No custom domain for now.
 - IaC: CloudFormation (`infra/template.yaml`).
 - CI/CD auth: GitHub OIDC -> IAM role restricted to `repo:vvkorz/einbuergerung_de:ref:refs/heads/main`. No AWS keys in GitHub.
-- Quiz UX: fixed question order, explanation shown after each answer, score + restart at end. German UI, "Sie" form.
+- Quiz UX: 33 questions drawn at random per attempt (`QUIZ_SIZE` in `scripts/build.py`) from the larger pool in `fragen.md`, explanation shown after each answer, score + new draw at end. German UI, "Sie" form.
 - Build: `scripts/build.py` (stdlib only) parses + validates `fragen.md` -> `dist/questions.json`, copies `site/` -> `dist/`. Fails on malformed questions. Answer-key table in `fragen.md` is ignored.
 
 ## Repo structure (all created, build verified locally)

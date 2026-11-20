@@ -1,8 +1,19 @@
 const $ = (id) => document.getElementById(id);
 
+let pool = [];
+let quizSize = 0;
 let questions = [];
 let current = 0;
 let score = 0;
+
+function drawQuestions() {
+  const shuffled = [...pool];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  questions = shuffled.slice(0, Math.min(quizSize, shuffled.length));
+}
 
 function renderQuestion() {
   const q = questions[current];
@@ -68,6 +79,7 @@ function showResult() {
 }
 
 function restart() {
+  drawQuestions();
   current = 0;
   score = 0;
   renderQuestion();
@@ -86,7 +98,10 @@ async function init() {
     }
     $("subtitle").textContent = data.subtitle ?? "";
     $("note").textContent = data.note ?? "";
-    questions = data.questions;
+    pool = data.questions ?? [];
+    quizSize = data.quizSize ?? pool.length;
+    if (!pool.length) throw new Error("No questions in questions.json");
+    drawQuestions();
     renderQuestion();
   } catch (err) {
     console.error(err);

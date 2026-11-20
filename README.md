@@ -8,7 +8,9 @@ A static website with a humorous, unofficial quiz about German everyday culture,
 
 ## Overview
 
-The quiz contains 12 multiple-choice questions (in German) covering topics such as the *Weißwurstäquator*, Bavarian beer garden etiquette, the Swabian *Kehrwoche*, *Moin* and *Stoßlüften*. Each question has four answer options, one correct answer and a short explanation.
+`fragen.md` holds a pool of questions (in German) covering topics such as the *Weißwurstäquator*, Bavarian beer garden etiquette, the Swabian *Kehrwoche*, *Moin* and *Stoßlüften*. Each question has four answer options, one correct answer and a short explanation.
+
+Like the official test, each attempt consists of 33 questions. They are drawn at random from the pool in the browser, so every attempt – and every click on *Neuen Test mit neuen Fragen starten* – gives a different selection in a different order. The quiz size lives in `QUIZ_SIZE` in `scripts/build.py`.
 
 The website is fully static (HTML, CSS, JavaScript) and requires no backend, which makes it cheap and simple to host on AWS.
 
@@ -22,7 +24,7 @@ flowchart LR
     D --> E[CloudFront, HTTPS]
 ```
 
-`scripts/build.py` parses and validates `fragen.md`, writes `dist/questions.json` and copies the site files into `dist/`. The quiz shows questions in a fixed order and the explanation right after each answer.
+`scripts/build.py` parses and validates `fragen.md`, writes `dist/questions.json` (the full pool plus `quizSize`) and copies the site files into `dist/`. The browser draws the 33 questions for an attempt and shows the explanation right after each answer.
 
 ## Project Structure
 
@@ -105,4 +107,6 @@ Questions are maintained in [fragen.md](fragen.md). Each question follows this f
 **Erklärung:** Short explanation.
 ```
 
-The build fails if a question is missing an option, the answer or the explanation, so a broken edit is never deployed. The answer key table at the end of the file is ignored by the build.
+The build fails if a question is missing an option, the answer or the explanation, or if the pool holds fewer than `QUIZ_SIZE` questions – so a broken edit is never deployed. The answer key table at the end of the file is ignored by the build.
+
+Question numbers only order the pool; players see their own numbering. In the subtitle, `{quiz_size}` and `{pool_size}` are replaced at build time, so adding questions needs no edit there.

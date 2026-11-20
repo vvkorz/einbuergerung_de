@@ -51,7 +51,7 @@ h1 { margin: 0 0 0.25rem; font-size: 1.9rem; }
 }
 
 .counter { margin: 0; color: var(--muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; }
-h2 { margin: 0.25rem 0 1.25rem; font-size: 1.3rem; }
+h2 { margin: 0.25rem 0 1.25rem; font-size: 1.3rem; overflow-wrap: break-word; }
 
 .options { display: grid; gap: 0.6rem; }
 .option {
@@ -67,6 +67,8 @@ h2 { margin: 0.25rem 0 1.25rem; font-size: 1.3rem; }
   border: 1px solid var(--border);
   border-radius: 8px;
   cursor: pointer;
+  overflow-wrap: anywhere;
+  min-width: 0;
 }
 .option:hover:not(:disabled) { border-color: var(--accent); }
 .option:disabled { cursor: default; }

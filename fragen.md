@@ -1,6 +1,6 @@
 # Der echte Einbürgerungstest
 
-*Das steht in keinem Lehrbuch – 48 Fragen über deutsche Alltagskultur, Gewohnheiten und regionale Eigenheiten.*
+*Das steht in keinem Lehrbuch – {quiz_size} Fragen über deutsche Alltagskultur, Gewohnheiten und regionale Eigenheiten, zufällig gezogen aus einem Pool von {pool_size}.*
 
 > **Hinweis:** Dies ist ein humorvolles, inoffizielles Quiz und kein amtlicher Einbürgerungstest. Einige Bräuche unterscheiden sich je nach Region.
 
