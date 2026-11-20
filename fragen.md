@@ -1,6 +1,6 @@
 # Der echte Einbürgerungstest
 
-*Das steht in keinem Lehrbuch – 33 Fragen über deutsche Alltagskultur, Gewohnheiten und regionale Eigenheiten.*
+*Das steht in keinem Lehrbuch – 48 Fragen über deutsche Alltagskultur, Gewohnheiten und regionale Eigenheiten.*
 
 > **Hinweis:** Dies ist ein humorvolles, inoffizielles Quiz und kein amtlicher Einbürgerungstest. Einige Bräuche unterscheiden sich je nach Region.
 
@@ -369,6 +369,171 @@
 
 **Erklärung:** „Büdchen“ ist eine regionale Bezeichnung für einen Kiosk. Solche Läden sind vielerorts kleine Treffpunkte im Viertel.
 
+### 34. Wofür werden deutsche Urlauber im Ausland besonders oft aufgezogen?
+
+- A) Für Socken in Sandalen
+- B) Für Gummistiefel am Strand
+- C) Für Krawatten im Schwimmbad
+- D) Für Bademäntel im Restaurant
+
+**Richtige Antwort:** A
+
+**Erklärung:** Socken in Sandalen sind der Klassiker unter den deutschen Urlaubsklischees – mal belächelt, mal mit Absicht und Selbstironie getragen. Ein Kleidungsgesetz ist das natürlich nicht.
+
+### 35. Was bestellt man in Bayern, wenn man ein Brötchen möchte?
+
+- A) Eine Semmel
+- B) Eine Schrippe
+- C) Ein Rundstück
+- D) Eine Fluppe
+
+**Richtige Antwort:** A
+
+**Erklärung:** Für dasselbe Gebäck gibt es viele Namen: Semmel in Bayern, Schrippe in Berlin, Rundstück in Hamburg, Weck oder Wecken im Südwesten. Die Grenzen verlaufen fließend.
+
+### 36. Was bekommt man in Berlin meistens, wenn man einen „Pfannkuchen“ bestellt?
+
+- A) Einen dünnen Eierkuchen mit Zucker
+- B) Ein gefülltes Siedegebäck, das anderswo „Berliner“ heißt
+- C) Einen Kartoffelpuffer
+- D) Eine Waffel mit Puderzucker
+
+**Richtige Antwort:** B
+
+**Erklärung:** In Berlin und Teilen Ostdeutschlands ist der „Pfannkuchen“ das gefüllte Gebäck; das flache Gebäck aus der Pfanne heißt dort „Eierkuchen“. Anderswo sagt man Berliner, Krapfen oder Kräppel.
+
+### 37. Wie spät ist es, wenn jemand „dreiviertel acht“ sagt?
+
+- A) 7:45 Uhr
+- B) 8:45 Uhr
+- C) 7:15 Uhr
+- D) 8:30 Uhr
+
+**Richtige Antwort:** A
+
+**Erklärung:** „Dreiviertel acht“ ist vor allem in Ostdeutschland, Sachsen, Franken und Teilen Süddeutschlands verbreitet; andere sagen „Viertel vor acht“. Nach derselben Logik heißt 7:15 Uhr dort „viertel acht“.
+
+### 38. Wie heißt das Plattenlabel, das Bushido 2004 gegründet hat?
+
+- A) Aggro Berlin
+- B) ersguterjunge
+- C) Selfmade Records
+- D) Four Music
+
+**Richtige Antwort:** B
+
+**Erklärung:** Der Berliner Rapper Bushido gründete „ersguterjunge“ und veröffentlichte dort unter anderem Chakuza und Kay One. Aggro Berlin, Selfmade Records und Four Music sind andere bekannte Adressen des deutschen Hip-Hop.
+
+### 39. Wofür war der Berliner Rapper Sido in seinen Anfangsjahren bekannt?
+
+- A) Für eine Pandamaske
+- B) Für einen weißen Zylinder
+- C) Für eine silberne Totenkopfmaske
+- D) Für eine Clownsnase
+
+**Richtige Antwort:** C
+
+**Erklärung:** Sido trat jahrelang mit einer silbernen Maske auf und legte sie später ab. Die Pandamaske ist dagegen das Markenzeichen des Stuttgarter Rappers Cro.
+
+### 40. Welche deutsche Band nennt sich selbst augenzwinkernd „die beste Band der Welt“?
+
+- A) Rammstein
+- B) Die Ärzte
+- C) Die Toten Hosen
+- D) Scorpions
+
+**Richtige Antwort:** B
+
+**Erklärung:** Die Berliner Band Die Ärzte benutzt den Titel seit Jahrzehnten selbstironisch; Fans kürzen ihn gern mit „DBBDW“ ab. Gegründet wurde die Band 1982 – im selben Jahr wie Die Toten Hosen.
+
+### 41. Von welcher Band stammt der Party- und Stadionklassiker „Tage wie diese“?
+
+- A) Die Ärzte
+- B) Rammstein
+- C) Die Toten Hosen
+- D) Die Fantastischen Vier
+
+**Richtige Antwort:** C
+
+**Erklärung:** Das Lied der Düsseldorfer Band Die Toten Hosen erschien 2012 und wird seither auf Geburtstagen, Hochzeiten und in Fußballstadien lautstark mitgesungen. Sänger der Band ist Campino.
+
+### 42. Welche bekannte Band singt überwiegend auf Kölsch?
+
+- A) BAP
+- B) Die Toten Hosen
+- C) Die Ärzte
+- D) Scorpions
+
+**Richtige Antwort:** A
+
+**Erklärung:** BAP um Wolfgang Niedecken singt seit den Siebzigern im Kölner Dialekt. Dass Die Toten Hosen aus dem benachbarten Düsseldorf kommen, ist für manche Rheinländer ein Unterschied von einiger Bedeutung.
+
+### 43. Welcher Musikrichtung wird Rammstein üblicherweise zugeordnet?
+
+- A) Neue Deutsche Welle
+- B) Krautrock
+- C) Neue Deutsche Härte
+- D) Schlager
+
+**Richtige Antwort:** C
+
+**Erklärung:** Der Begriff „Neue Deutsche Härte“ entstand in den Neunzigern für harte Gitarrenmusik mit deutschen Texten und wird vor allem mit Rammstein verbunden. Die „Neue Deutsche Welle“ war dagegen eine Pop-Bewegung der frühen Achtziger.
+
+### 44. Worauf spielt der Refrain von Rammsteins „Du hast“ an?
+
+- A) Auf die Frageformel bei einer Trauung
+- B) Auf den Eid vor Gericht
+- C) Auf den Text der Einbürgerungsurkunde
+- D) Auf eine Steuererklärung
+
+**Richtige Antwort:** A
+
+**Erklärung:** Im Lied wird die Trauformel „Willst du, bis der Tod euch scheidet, treu ihr sein für alle Tage?“ mit einem trockenen „Nein“ beantwortet. Der Titel spielt zugleich mit dem Gleichklang von „du hast“ und „du hasst“.
+
+### 45. Was war das „Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz“?
+
+- A) Ein Scherzwort aus einer Comedysendung
+- B) Ein echtes Gesetz in Mecklenburg-Vorpommern
+- C) Eine Kochsendung des NDR
+- D) Ein Preis für das längste deutsche Wort
+
+**Richtige Antwort:** B
+
+**Erklärung:** Das Gesetz regelte ab 1999 die Übertragung von Überwachungsaufgaben bei der Rindfleischetikettierung und galt mit 63 Buchstaben lange als längstes amtlich verwendetes deutsches Wort. 2013 wurde es aufgehoben.
+
+### 46. Was ist ein „Donaudampfschifffahrtsgesellschaftskapitän“?
+
+- A) Ein Ehrentitel für Wiener Hafenarbeiter
+- B) Ein Kartenspiel aus Bayern
+- C) Der Kapitän eines Dampfschiffs einer Donau-Schifffahrtsgesellschaft
+- D) Ein Rechtschreibfehler, den der Duden offiziell korrigiert hat
+
+**Richtige Antwort:** C
+
+**Erklärung:** Das Wort ist das Schulbeispiel für deutsche Wortzusammensetzungen und lässt sich beliebig verlängern, etwa um „-smütze“. Entschlüsseln kann man es von hinten: Das letzte Glied sagt, worum es eigentlich geht.
+
+### 47. Was drückt der geflügelte Satz „Der Techniker ist informiert“ im Netz aus?
+
+- A) Die verbindliche Zusage, dass eine Störung sofort behoben wird
+- B) Eine ironische Standardantwort, mit der man sich über Kundenservice lustig macht
+- C) Ein Hinweisschild in Autowerkstätten
+- D) Eine Formel aus dem Behördendeutsch für Bauanträge
+
+**Richtige Antwort:** B
+
+**Erklärung:** Der Satz stammt aus Hotline-Gesprächen mit Internet- und Kabelanbietern. Im Netz steht er sinnbildlich dafür, dass alle Beteiligten informiert sind – und sich trotzdem nichts bewegt.
+
+### 48. Was behauptet die „Bielefeld-Verschwörung“?
+
+- A) Dass Bielefeld in Wahrheit nicht existiert
+- B) Dass Bielefeld heimlich die größte Stadt Deutschlands ist
+- C) Dass Bielefeld zweimal gebaut wurde
+- D) Dass Bielefeld absichtlich keinen Bahnhof bekam
+
+**Richtige Antwort:** A
+
+**Erklärung:** Der Scherz entstand 1994 im Usenet und hält sich bis heute. 2019 bot die Stadt Bielefeld eine Million Euro für einen Beweis ihrer Nichtexistenz – überzeugt hat keine der Einsendungen.
+
 ---
 
 ## Lösungsschlüssel (kompakt)
@@ -408,4 +573,19 @@
 | 31 | C | Einstand |
 | 32 | D | Besenwirtschaft |
 | 33 | A | Büdchen |
+| 34 | A | Socken in Sandalen |
+| 35 | A | Semmel |
+| 36 | B | Pfannkuchen |
+| 37 | A | Dreiviertel acht |
+| 38 | B | ersguterjunge |
+| 39 | C | Sido |
+| 40 | B | Die Ärzte |
+| 41 | C | Tage wie diese |
+| 42 | A | BAP |
+| 43 | C | Neue Deutsche Härte |
+| 44 | A | Du hast |
+| 45 | B | Rindfleischetikettierungsgesetz |
+| 46 | C | Komposita |
+| 47 | B | Der Techniker ist informiert |
+| 48 | A | Bielefeld-Verschwörung |
 
